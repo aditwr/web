@@ -1,0 +1,11 @@
+body {
+    background: black;
+}
+h1 {
+    color: cyan;
+}
+
+p {
+    color: gainsboro;
+    font-family: 'Courier New', Courier, monospace;
+}

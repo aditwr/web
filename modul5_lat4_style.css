@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: blanchedalmond;
+    margin-left: 20px;
+}
+
+p {
+    color: purple;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.kotak {
+    padding: 20px;
+    width: fit-content;
+    color: white;
+    margin: 10px;
+    background: red;
+}
+
+#persegi {
+    padding: 40px;
+    width: fit-content;
+    margin: 10px;
+    background: turquoise;
+}
