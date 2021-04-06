@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Absolute Position
+        </title>
+        <style>
+            .wraper {
+                background: beige;
+                border-radius: 8px;
+                padding: 16px;
+                margin: 32px;
+                position: relative;
+                min-height: 300px;
+            }
+
+            .box {
+                background: #333;
+                position: absolute;
+                color: #fff;
+                padding: 30px ;
+                margin: 10px;
+                left: 30px;
+                
+            }
+            .box1 {
+                background: cyan;
+                top: 50px;
+                bottom: 0px;
+                
+
+            }
+            .box2 {
+                top: 100px;
+                background: red;
+                left: 50px;
+                bottom: 0px;
+            }
+            .box3 {
+                top: 150px;
+                left: 100px;
+                bottom: 0px;
+                background: purple;
+            }
+            .box4 {
+                top: 200px;
+                left: 200px;
+                background: pink;
+                bottom: 0px;
+            }
+        </style>
+
+        <div class="wrapper">
+            <h2> Absolute Position</h2>
+            <div class="box box1"> Box1</div>
+            <div class="box box2"> Box2</div>
+            <div class="box box3"> Box3</div>
+            <div class="box box4"> Box4</div>
+        </div>
+    </head>
+    
+</html>
