@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Membuat Bar Navigasi</title>
+        <style>
+            #nav {
+                background: rebeccapurple;
+                border-bottom-left-radius: 40px;
+                border-bottom-right-radius: 40px;
+                margin-top: -20px;
+                margin-left: -10px;
+                margin-right: -10px;
+                padding: 20px;
+                height: 50px;
+                width: 97.5%;
+                position: fixed;
+                z-index: 1;
+            }
+            #nav ul {
+                font-family: fantasy;
+                font-size: 20px;
+                list-style-type: none;
+                display: inline-block;
+                position: absolute;
+                left: 60%;
+                top: 10px;
+            }
+            #nav ul li {
+                float: left;
+                margin-right: 10px;
+                padding: 10px;
+            }
+            #nav ul li:hover {
+                background: powderblue;
+                border-radius: 20px;
+                padding: 5px;
+            }
+            #nav ul li a {
+                color: seashell;
+                text-decoration: none;
+            }
+            #nav ul li a:hover {
+                color: black;
+            }
+            #nav_title {
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 30px;
+                color:seashell;
+                position: fixed;
+                margin-top: -15px;
+                
+            }
+            #nav_title :hover {
+                color:rgb(147, 241, 241);
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="nav">
+            <div id="nav_title">
+                <p1> <p><b>Curriculum Vitae</b></p></p1>
+            </div>
+            <ul>
+                <li><a href="#">Profiles</a></li>
+                <li><a href="#">Skill</a></li>
+                <li><a href="#">Riwayat Pendidikan</a></li>
+                <li><a href="#">Riwayat Organisasi</a></li>
+            </ul>
+
+        </div>
+
+    </body>
+</html>
